@@ -1,0 +1,65 @@
+body {
+    font-family: "Bellefair Regular", Barlow;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(230, 35%, 7%);
+}
+
+p {
+    font-family: "Barlow";
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 56px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
+    font-family: "Barlow Condensed Regular";
+    word-spacing: 4.75;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.navbar a {
+    font-family: "Barlow Condensed Regular";
+    font-size: 16px;
+    word-spacing: 2.7;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    border-bottom:1px solid hsl(0, 0%, 50%);
+}
+
+.navbar .current {
+    border-bottom:1px solid hsl(0, 0%, 100%);
+    
+}
+
+.subhead-1 {
+    font-size: 28px;
+    word-spacing: 2.35;
+}
+
+.subhead-2 {
+    font-family: "Barlow Condensed Regular";
+    font-size: 14px;
+    word-spacing: 2.7;
+}
+
